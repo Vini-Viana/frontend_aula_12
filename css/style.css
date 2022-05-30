@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho-preto {
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.cabecalho-preto-item {
+    margin: 10px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F0A83E; 
+    height: 62px; 
+    width: 100%;
+}
+
+.cabecalho-amarelo-logo {
+    height: 23px;
+    margin-right: 500px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.cabecalho-amarelo-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.conteudo {
+    background-color: #E5E5E5;
+}
+
+.conteudo-banner-principal {
+    width: 100%
+}
+
+.conteudo-destaques {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   gap: 30px;
+}
+
+.conteudo-destaques-logo {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    margin: 15px 0 15px 150px;
+}
+
+.conteudo-destaques-titulo {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #3C2313;
+}
+
+.conteudo-destaques-parte2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.conteudo-destaques-opcoes {
+    font-family: 'Roboto'sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.conteudo-banners {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 400px 100px;   
+}
+
+.conteudo-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.conteudo-contato-titulo {
+    display: flex;
+    justify-content: center;
+    margin: 0 500px 25px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C2313;
+}
+
+.conteudo-contato-label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #3C2313;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.conteudo-contato-input{
+    margin-left: 400px;
+    margin-bottom: 10px;
+    background-color: #3C2313;
+    border-radius: 12px;
+    width: 300px;
+    height: 30px;
+}
+
+.conteudo-contato-botoes {
+    margin-top: 10px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    height: 34px;
+    width: 110px;
+    border-radius: 20px;
+    background-color: #3C2313;
+}
+
+button:hover {
+    background-color: rgba(179, 128, 86, 0.53);
+}
+
+.conteudo-amarelo {
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.conteudo-amarelo-email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    width: 300px;
+    height: 30px;
+}
+
+.rodape {
+    width: 100%;
+}
+
+.rodape-marrom {
+    display: flex;
+    background-color: #3C2313;
+    height: 350px;
+    padding: 20px 150px;
+}
+
+.rodape-marrom-dados {
+    height: 66px;
+    width: 100%;
+}
+
+.rodape-marrom-dados-petshop {
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape-marrom-dados-petshop-info {
+    font-family: 'Roboto'sans-serif;
+    color: #FFFFFF;
+}
+
+.rodape-marrom-logo { 
+    padding-top: 150px;
+}
+
+.rodape-marrom-loc {
+    display: flex;
+}
+
+.rodape-preto {
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
